@@ -12,6 +12,11 @@
 		88ADEDF62C1991ED00CD3C28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ADEDF52C1991ED00CD3C28 /* Preview Assets.xcassets */; };
 		88ADEE0B2C19954A00CD3C28 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */; };
 		88ADEE0D2C19979400CD3C28 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */; };
+		88ADEE0F2C19A17C00CD3C28 /* PrimeryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE0E2C19A17C00CD3C28 /* PrimeryButton.swift */; };
+		88ADEE112C19A81D00CD3C28 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE102C19A81D00CD3C28 /* SecondaryButton.swift */; };
+		88ADEE132C19AA0A00CD3C28 /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE122C19AA0A00CD3C28 /* SocialSignupView.swift */; };
+		88ADEE152C19ADF900CD3C28 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE142C19ADF900CD3C28 /* SignUpView.swift */; };
+		88ADEE172C19B1AC00CD3C28 /* RoudedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE162C19B1AC00CD3C28 /* RoudedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		88ADEE092C1994DE00CD3C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		88ADEE0E2C19A17C00CD3C28 /* PrimeryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeryButton.swift; sourceTree = "<group>"; };
+		88ADEE102C19A81D00CD3C28 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		88ADEE122C19AA0A00CD3C28 /* SocialSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
+		88ADEE142C19ADF900CD3C28 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		88ADEE162C19B1AC00CD3C28 /* RoudedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoudedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */,
+				88ADEE0E2C19A17C00CD3C28 /* PrimeryButton.swift */,
+				88ADEE102C19A81D00CD3C28 /* SecondaryButton.swift */,
+				88ADEE162C19B1AC00CD3C28 /* RoudedTextField.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -134,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */,
+				88ADEE122C19AA0A00CD3C28 /* SocialSignupView.swift */,
+				88ADEE142C19ADF900CD3C28 /* SignUpView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -222,8 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88ADEE112C19A81D00CD3C28 /* SecondaryButton.swift in Sources */,
 				88ADEE0B2C19954A00CD3C28 /* UIExtension.swift in Sources */,
 				88ADEDEF2C1991EC00CD3C28 /* TrackizerApp.swift in Sources */,
+				88ADEE152C19ADF900CD3C28 /* SignUpView.swift in Sources */,
+				88ADEE172C19B1AC00CD3C28 /* RoudedTextField.swift in Sources */,
+				88ADEE132C19AA0A00CD3C28 /* SocialSignupView.swift in Sources */,
+				88ADEE0F2C19A17C00CD3C28 /* PrimeryButton.swift in Sources */,
 				88ADEE0D2C19979400CD3C28 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
