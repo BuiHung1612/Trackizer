@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		88ADEDEF2C1991EC00CD3C28 /* TrackizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEDEE2C1991EC00CD3C28 /* TrackizerApp.swift */; };
-		88ADEDF12C1991EC00CD3C28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEDF02C1991EC00CD3C28 /* ContentView.swift */; };
 		88ADEDF32C1991ED00CD3C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ADEDF22C1991ED00CD3C28 /* Assets.xcassets */; };
 		88ADEDF62C1991ED00CD3C28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ADEDF52C1991ED00CD3C28 /* Preview Assets.xcassets */; };
+		88ADEE0B2C19954A00CD3C28 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */; };
+		88ADEE0D2C19979400CD3C28 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88ADEDEB2C1991EC00CD3C28 /* Trackizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88ADEDEE2C1991EC00CD3C28 /* TrackizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerApp.swift; sourceTree = "<group>"; };
-		88ADEDF02C1991EC00CD3C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88ADEDF22C1991ED00CD3C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88ADEDF52C1991ED00CD3C28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88ADEE052C1994AB00CD3C28 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		88ADEE062C1994AB00CD3C28 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		88ADEE072C1994AB00CD3C28 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		88ADEE082C1994AB00CD3C28 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		88ADEE092C1994DE00CD3C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,14 @@
 		88ADEDED2C1991EC00CD3C28 /* Trackizer */ = {
 			isa = PBXGroup;
 			children = (
+				88ADEE092C1994DE00CD3C28 /* Info.plist */,
+				88ADEE012C1993D600CD3C28 /* UICommon */,
+				88ADEE002C1993CE00CD3C28 /* Common */,
+				88ADEDFF2C1993C400CD3C28 /* Model */,
+				88ADEDFE2C1993BA00CD3C28 /* ViewModel */,
+				88ADEDFD2C1993B200CD3C28 /* View */,
+				88ADEDFC2C19939F00CD3C28 /* Font */,
 				88ADEDEE2C1991EC00CD3C28 /* TrackizerApp.swift */,
-				88ADEDF02C1991EC00CD3C28 /* ContentView.swift */,
 				88ADEDF22C1991ED00CD3C28 /* Assets.xcassets */,
 				88ADEDF42C1991ED00CD3C28 /* Preview Content */,
 			);
@@ -65,6 +78,78 @@
 				88ADEDF52C1991ED00CD3C28 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88ADEDFC2C19939F00CD3C28 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				88ADEE072C1994AB00CD3C28 /* Inter-Bold.ttf */,
+				88ADEE052C1994AB00CD3C28 /* Inter-Medium.ttf */,
+				88ADEE082C1994AB00CD3C28 /* Inter-Regular.ttf */,
+				88ADEE062C1994AB00CD3C28 /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		88ADEDFD2C1993B200CD3C28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88ADEE042C1993FB00CD3C28 /* MainTab */,
+				88ADEE032C1993F600CD3C28 /* Home */,
+				88ADEE022C1993EF00CD3C28 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88ADEDFE2C1993BA00CD3C28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88ADEDFF2C1993C400CD3C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88ADEE002C1993CE00CD3C28 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		88ADEE012C1993D600CD3C28 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				88ADEE0A2C19954A00CD3C28 /* UIExtension.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		88ADEE022C1993EF00CD3C28 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				88ADEE0C2C19979400CD3C28 /* WelcomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		88ADEE032C1993F600CD3C28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88ADEE042C1993FB00CD3C28 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88ADEDF12C1991EC00CD3C28 /* ContentView.swift in Sources */,
+				88ADEE0B2C19954A00CD3C28 /* UIExtension.swift in Sources */,
 				88ADEDEF2C1991EC00CD3C28 /* TrackizerApp.swift in Sources */,
+				88ADEE0D2C19979400CD3C28 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +361,7 @@
 				DEVELOPMENT_TEAM = 6C8AF5S88S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +391,7 @@
 				DEVELOPMENT_TEAM = 6C8AF5S88S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
